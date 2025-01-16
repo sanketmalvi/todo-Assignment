@@ -6,14 +6,14 @@ const compeletedSlice = createSlice({
     {
       userId: 1,
       id: 3,
-      title: "fugiat veniam minus",
+      title: "Study",
       isDone: false,
       isImportant: false,
     },
     {
       userId: 1,
       id: 4,
-      title: "et porro tempora",
+      title: "Give water to the plants",
       isDone: false,
       isImportant: false,
     },

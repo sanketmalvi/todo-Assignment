@@ -5,14 +5,14 @@ const initialState = {
     {
       userId: 1,
       id: 1,
-      title: "delectus aut autem",
+      title: "Complete the Assignment.",
       isDone: false,
       isImportant: false,
     },
     {
       userId: 1,
       id: 2,
-      title: "quis ut nam facilis et officia qui",
+      title: "Walk for 500 meters",
       isDone: false,
       isImportant: false,
     },
@@ -26,7 +26,7 @@ export const todoSlice = createSlice({
     addTodo: (state, action) => {
       const todo = {
         id: nanoid(),
-        title: action.payload,
+        title: "Shopping",
         isDone: false,
         isImportant: false,
       };
